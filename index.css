@@ -94,17 +94,28 @@ body{
 .button{
     font-size: 27px;
     padding: 10px;
-    backdrop-filter: blur(16px) saturate(180%);
-    -webkit-backdrop-filter: blur(16px) saturate(180%);
-    background-color: rgba(17, 25, 40, 0.75);
-    border-radius: 12px;
+    background: rgba( 0, 0, 0, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 6px );
+-webkit-backdrop-filter: blur( 6px );
+border-radius: 10px;
+    border-radius: 10px;    
     text-align: center;
     font-weight: bold;
     color: white;
     border-radius: 7px;
     cursor: pointer;
     margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.button img{
+    height: 40px;
+    margin-right: 10px;
+}
+
 .button:hover{
     font-size: 27px;
     padding: 10px;
@@ -115,6 +126,9 @@ body{
     cursor: pointer;
     background-color: #2E3192;
     transition: all 0.1s ease-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 a{
@@ -148,6 +162,10 @@ a{
     }
     .button:hover{
         font-size: 24px;
+    }
+    .button img{
+        height: 38px;
+        margin-right: 10px;
     }
 }
 @media only screen and (max-width:410px){
