@@ -57,12 +57,14 @@ body{
 }
 .text span{
     position: relative;
+    margin-top: 13px;
+    margin-bottom: 13px;
 }
 .text span::after{
     position: absolute;
     left: 0px;
     content: "";
-    height: 29px;
+    height: 30px;
     width: 100%;
     background-color: #22215B;
     border-left: 2px solid white;
